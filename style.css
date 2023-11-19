@@ -1,0 +1,52 @@
+
+/* Schriftart "Roboto-Regular" definieren */
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Verwende Grautöne für den Hintergrund und Text */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: 'Roboto-Regular', sans-serif; /* Verwende Roboto-Regular, und falle bei Bedarf auf sans-serif aus */
+    margin: 10%;
+    padding: 5%;
+    align-items: center;
+}
+
+/* Stil für die Container, um die beiden Select-Boxen nebeneinander anzuordnen */
+.select-container {
+    display: flex; /* Flexbox verwenden */
+    justify-content: space-between; /* Abstand zwischen den Select-Boxen */
+}
+
+/* Stil für die einzelnen Select-Boxen */
+.select-box {
+    flex: 1; /* Gleiche Breite für beide Select-Boxen */
+    margin-right: 20px; /* Abstand zwischen den Select-Boxen */
+}
+
+/* Runde den "submitOne"-Button */
+.submitOne {
+    background-color: rgb(42, 150, 246);
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+}
+
+.orderButton {
+   background-color: rgb(246, 42, 69);
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
+
+.submitAllButton{
+    background-color: rgb(62, 246, 42);
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
